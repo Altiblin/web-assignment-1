@@ -3,6 +3,7 @@ body {
 	background-attachment: fixed; /* Фон страницы фиксируется */
 	font-family: Lucida Console;
 }
+
 h1 { 
 	margin: 0; 
 }
@@ -12,6 +13,7 @@ input {
 	font-size: inherit;
 	margin: 0;
 }
+
 .login-form {
 	margin: 250px auto;
 	width: 290px;
@@ -37,6 +39,7 @@ input[type="password"] {
 	width: 228px;
 	border-radius: 23px;
 }
+
 .login-form 
 input[type="Login"]:focus,
 input[type="password"]:focus{
@@ -59,6 +62,7 @@ input[type="password"]:focus{
 .REG:hover{
 	opacity:1;
 }
+
 .signin{
 	text-align: center;
 }
@@ -94,8 +98,7 @@ input[type="password"]:focus{
     color: #337AB7; /* Цвет при наведении */
 }
 
-/* Синяя линия под блоками меню */
-.main-menu > li > a:after { 
+.main-menu > li > a:after { /* Синяя линия под блоками меню */
     content: ""; /* Без нее линии не будет :( */
     position: absolute; /* Делает позицию линии не зависимой */
     transition: all .3s; /* Появление синий полоски. all - для всех блоков. .3s - время появления */

@@ -36,7 +36,7 @@ input[type=Name],
 input[type=Surname],
 input[type=Email],
 input[type=Phone], 
-input[type=Password]{
+input[type=Password] {
 	padding: 12px 10px;
 	width: 250px;
 	border-radius: 23px;
@@ -65,19 +65,19 @@ input[type=Password]:focus {
 	object-position: fixed;
 }
 
-.REG:hover{
-	opacity:1;
+.REG:hover {
+	opacity: 1;
 }
 
-a{
+a {
 	color: dodgerblue;
 }
 
-.signin{
+.signin {
 	text-align: center;
 }
 
-b{
+b {
 	margin-left: 15px;
 }
 
@@ -116,8 +116,7 @@ input {
     color: #337AB7; /* Цвет при наведении */
 }
 
-/* Синяя линия под блоками меню */
-.main-menu > li > a:after { 
+.main-menu > li > a:after { /* Синяя линия под блоками меню */
     content: ""; /* Без нее линии не будет :( */
     position: absolute; /* Делает позицию линии не зависимой */
     transition: all .3s; /* Появление синий полоски. all - для всех блоков. .3s - время появления */

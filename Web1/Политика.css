@@ -29,8 +29,7 @@
     color: #337AB7; /* Цвет при наведении */
 }
 
-/* Синяя линия под блоками меню */
-.main-menu > li > a:after { 
+.main-menu > li > a:after { /* Синяя линия под блоками меню */
     content: ""; /* Без нее линии не будет :( */
     position: absolute; /* Делает позицию линии не зависимой */
     transition: all .3s; /* Появление синий полоски. all - для всех блоков. .3s - время появления */
@@ -144,6 +143,8 @@
     top: 30px;
 }
 
+/* Код Баги */
+
 .text {
     margin-left: 300px;
     margin-right: 300px;
@@ -159,7 +160,7 @@
 
 .zagl {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 40px;
 }
 
